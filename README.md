@@ -122,6 +122,8 @@ Open Command Prompt or PowerShell and run:
 ```bash
 git clone https://github.com/priyanka052005/prog7312-group-1-2026-poe-part1-priyanka052005.git
 
+---
+
 # References
 aartig13 (2022). Implement custom collections in visual C# - C#. [online] MicrosoftLearn. Available at: https://learn.microsoft.com/en-us/troubleshoot/developer/visualstudio/csharp/language-compilers/implement-custom-collection [Accessed 14 Sept. 2026].
 
