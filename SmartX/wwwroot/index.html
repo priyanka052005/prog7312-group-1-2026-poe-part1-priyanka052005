@@ -1,0 +1,479 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Smart-X IoT Gateway</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="brand">
+
+            <img src="smartx-logo.png"
+                 alt="Smart-X Logo"
+                 class="logo" />
+
+            <div class="brand-text">
+                <p>
+                    IoT Data Ingestion & Validation Gateway
+                </p>
+            </div>
+
+        </div>
+
+        <span id="apiStatus"
+              class="status-pill">
+            Checking API...
+        </span>
+
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <span class="eyebrow">PART 1</span>
+
+            <h2>Smart-X Gateway Dashboard</h2>
+
+            <p>
+                Register simulated IoT sensors, send telemetry,
+                upload device files, and monitor live anomaly alerts.
+            </p>
+        </section>
+
+        <section class="pillars-grid">
+
+            <button class="pillar active">
+                <span>01</span>
+
+                <strong>
+                    Sensor Data Ingestion & Telemetry
+                </strong>
+
+                <small>Active in Part 1</small>
+            </button>
+
+            <button class="pillar disabled" disabled>
+                <span>02</span>
+
+                <strong>
+                    Real-Time Command Stream & History
+                </strong>
+
+                <small>Coming in Part 2</small>
+            </button>
+
+            <button class="pillar disabled" disabled>
+                <span>03</span>
+
+                <strong>
+                    Network Topology & Mesh Routing
+                </strong>
+
+                <small>Coming in Final PoE</small>
+            </button>
+
+        </section>
+
+        <section class="stats-grid">
+
+            <article class="stat-card">
+                <small>Registered Sensors</small>
+
+                <strong id="sensorCount">
+                    0
+                </strong>
+            </article>
+
+            <article class="stat-card">
+                <small>Telemetry Records</small>
+
+                <strong id="telemetryCount">
+                    0
+                </strong>
+            </article>
+
+            <article class="stat-card">
+                <small>Active Alerts</small>
+
+                <strong id="alertCount">
+                    0
+                </strong>
+            </article>
+
+        </section>
+        <section class="panel">
+
+            <div class="panel-heading">
+                <div>
+                    <span class="eyebrow">
+                        MOCK TELEMETRY
+                    </span>
+
+                    <h3>
+                        Generate Simulated IoT Data
+                    </h3>
+                </div>
+            </div>
+
+            <p>
+                Generate batches of simulated telemetry
+                from the registered Smart-X sensors.
+            </p>
+
+            <div class="demo-buttons">
+
+                <button class="secondary-btn"
+                        onclick="generateMockTelemetry(10)">
+
+                    Generate 10 Readings
+
+                </button>
+
+                <button class="secondary-btn"
+                        onclick="generateMockTelemetry(100)">
+
+                    Generate 100 Readings
+
+                </button>
+
+                <button class="secondary-btn"
+                        onclick="generateMockTelemetry(500)">
+
+                    Generate 500 Readings
+
+                </button>
+
+            </div>
+
+            <p id="mockMessage"
+               class="form-message">
+            </p>
+
+        </section>
+
+        <section class="panel">
+
+            <div class="panel-heading">
+
+                <div>
+                    <span class="eyebrow">
+                        DYNAMIC ENGAGEMENT
+                    </span>
+
+                    <h3>
+                        Live Anomaly & Disconnect Alerts
+                    </h3>
+                </div>
+
+                <button class="secondary-btn"
+                        onclick="loadAll()">
+
+                    Refresh
+
+                </button>
+
+            </div>
+
+            <div id="alerts"
+                 class="alert-list">
+            </div>
+
+        </section>
+
+        <section class="two-column">
+
+            <div class="panel">
+
+                <span class="eyebrow">
+                    REGISTER
+                </span>
+
+                <h3>Add Sensor</h3>
+
+                <form id="sensorForm">
+
+                    <label>
+                        Device MAC / Unique ID
+                    </label>
+
+                    <input id="deviceId"
+                           required
+                           placeholder="ESP32-D4" />
+
+                    <label>
+                        Deployment Location
+                    </label>
+
+                    <input id="location"
+                           required
+                           placeholder="Facility A / Zone 2" />
+
+                    <label>
+                        Sensor Category
+                    </label>
+
+                    <select id="category"
+                            required>
+
+                        <option value="">
+                            Choose category
+                        </option>
+
+                        <option>
+                            Environmental
+                        </option>
+
+                        <option>
+                            Power Consumption
+                        </option>
+
+                        <option>
+                            Actuator
+                        </option>
+
+                    </select>
+
+                    <button class="primary-btn"
+                            type="submit">
+
+                        Register Sensor
+
+                    </button>
+
+                </form>
+
+                <p id="sensorMessage"
+                   class="form-message">
+                </p>
+
+            </div>
+
+            <div class="panel">
+
+                <span class="eyebrow">
+                    SIMULATE
+                </span>
+
+                <h3>
+                    Send Telemetry
+                </h3>
+
+                <form id="telemetryForm">
+
+                    <label>
+                        Sensor
+                    </label>
+
+                    <select id="telemetryDevice"
+                            required>
+                    </select>
+
+                    <label>
+                        Metric
+                    </label>
+
+                    <input id="metric"
+                           required
+                           placeholder="Temperature" />
+
+                    <label>
+                        Data Type
+                    </label>
+
+                    <select id="dataType">
+
+                        <option value="double">
+                            double / float
+                        </option>
+
+                        <option value="int">
+                            int
+                        </option>
+
+                        <option value="bool">
+                            bool
+                        </option>
+
+                    </select>
+
+                    <label>
+                        Value
+                    </label>
+
+                    <input id="value"
+                           required
+                           placeholder="24.5" />
+
+                    <label>
+                        Unit
+                    </label>
+
+                    <input id="unit"
+                           placeholder="°C / W / %" />
+
+                    <button class="primary-btn"
+                            type="submit">
+
+                        Send Telemetry
+
+                    </button>
+
+                </form>
+
+                <p id="telemetryMessage"
+                   class="form-message">
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="panel">
+
+            <span class="eyebrow">
+                SENSOR PROFILES
+            </span>
+
+            <h3>
+                Registered Devices
+            </h3>
+
+            <div id="sensorCards"
+                 class="sensor-grid">
+            </div>
+
+        </section>
+
+        <section class="panel">
+
+            <span class="eyebrow">
+                FILE ATTACHMENT
+            </span>
+
+            <h3>
+                Attach Device Configuration,
+                Log or Photo
+            </h3>
+
+            <form id="uploadForm"
+                  class="upload-row">
+
+                <select id="uploadDevice"
+                        required>
+                </select>
+
+                <input id="fileInput"
+                       type="file"
+                       required />
+
+                <button class="primary-btn"
+                        type="submit">
+
+                    Upload File
+
+                </button>
+
+            </form>
+
+            <p id="uploadMessage"
+               class="form-message">
+            </p>
+
+        </section>
+
+        <section class="panel">
+
+            <span class="eyebrow">
+                LATEST DATA
+            </span>
+
+            <h3>
+                Telemetry History
+            </h3>
+
+            <div class="table-wrap">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Time</th>
+                            <th>Device</th>
+                            <th>Metric</th>
+                            <th>Type</th>
+                            <th>Value</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="telemetryTable">
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <section class="panel">
+
+            <span class="eyebrow">
+                REQUIRED C# DEMOS
+            </span>
+
+            <h3>
+                Advanced OOP & Data Structure Evidence
+            </h3>
+
+            <div class="demo-buttons">
+
+                <button class="secondary-btn"
+                        onclick="runDemo('/api/demo/operator-overload')">
+
+                    Operator Overloading
+
+                </button>
+
+                <button class="secondary-btn"
+                        onclick="runDemo('/api/telemetry/demo-batch', 'POST')">
+
+                    Jagged Array → List
+
+                </button>
+
+                <button class="secondary-btn"
+                        onclick="runDemo('/api/demo/recursive-validation')">
+
+                    Recursive Validation
+
+                </button>
+
+            </div>
+
+            <pre id="demoOutput">
+Click a demonstration button.
+            </pre>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+
+<!--Reference list -->
+<!-- GeeksforGeeks(2023).CSS tutorial. [online] GeeksforGeeks.Available at: https://www.geeksforgeeks.org/css/css-tutorial/ [Accessed 14 Sept. 2026].
+Microsoft.com. (2024).How to create simple HTML / CSS project in visual studio 2022 - Microsoft Q & A. [online] Available at: https://learn.microsoft.com/en-us/answers/questions/1663914/how-to-create-simple-html-css-project-in-visual-st [Accessed 14 Sept. 2026].
+RoseHJM(2026).JavaScript and TypeScript in visual studio. [online] MicrosoftLearn.Available at: https://learn.microsoft.com/en-us/visualstudio/javascript/javascript-in-visual-studio?view=visualstudio [Accessed 14 Sept. 2026].
+W3SCHOOLS(2019).CSS tutorial. [online] W3schools.com.Available at: https://www.w3schools.com/css/ [Accessed 14 Sept. 2026].W3Schools (2024). HTML tutorial. [online] W3schools.com. Available at: https://www.w3schools.com/html/ [Accessed 14 Sept. 2026].
+wadepickett(2025).Static files in ASP.NET core. [online] Microsoft.com.Available at: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-10.0 [Accessed 14 Sept. 2026].-->

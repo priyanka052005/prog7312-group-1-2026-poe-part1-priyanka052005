@@ -1,0 +1,511 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emeris\\source\\repos\\SmartX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\validators\\telemetryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\validators\\telemetryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\validators\\sensorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\validators\\sensorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\validators\\deploymentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\validators\\deploymentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\services\\telemetryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\services\\telemetryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\services\\telemetrybuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\services\\telemetrybuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\services\\smartxstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\services\\smartxstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\services\\mocktelemetrygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\services\\mocktelemetrygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\services\\fileencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\services\\fileencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\services\\alertengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\services\\alertengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\models\\telemetryrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\models\\telemetryrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\models\\telemetrypacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\models\\telemetrypacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\models\\telemetryinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\models\\telemetryinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\models\\sensorregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\models\\sensorregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\models\\sensorattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\models\\sensorattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\models\\powerreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\models\\powerreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\models\\deploymentnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\models\\deploymentnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\models\\dashboardalert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\models\\dashboardalert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\controllers\\telemetrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\controllers\\telemetrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\controllers\\sensorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\controllers\\sensorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\controllers\\sensorattachmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\controllers\\sensorattachmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\controllers\\alertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\controllers\\alertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\wwwroot\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\wwwroot\\smartx-logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\wwwroot\\smartx-logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|c:\\users\\emeris\\source\\repos\\smartx\\smartx\\smartx.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{208F12F6-66D8-9CDD-E8AF-E246E212901F}|SmartX\\SmartX.csproj|solutionrelative:smartx\\smartx.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SmartXStore.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\SmartXStore.cs",
+              "RelativeDocumentMoniker": "SmartX\\Services\\SmartXStore.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\SmartXStore.cs",
+              "RelativeToolTip": "SmartX\\Services\\SmartXStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:52:07.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TelemetryBuffer.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\TelemetryBuffer.cs",
+              "RelativeDocumentMoniker": "SmartX\\Services\\TelemetryBuffer.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\TelemetryBuffer.cs",
+              "RelativeToolTip": "SmartX\\Services\\TelemetryBuffer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T23:39:07.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelemetryService.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\TelemetryService.cs",
+              "RelativeDocumentMoniker": "SmartX\\Services\\TelemetryService.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\TelemetryService.cs",
+              "RelativeToolTip": "SmartX\\Services\\TelemetryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:53:14.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeploymentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Validators\\DeploymentValidator.cs",
+              "RelativeDocumentMoniker": "SmartX\\Validators\\DeploymentValidator.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Validators\\DeploymentValidator.cs",
+              "RelativeToolTip": "SmartX\\Validators\\DeploymentValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:52:45.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SensorValidator.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Validators\\SensorValidator.cs",
+              "RelativeDocumentMoniker": "SmartX\\Validators\\SensorValidator.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Validators\\SensorValidator.cs",
+              "RelativeToolTip": "SmartX\\Validators\\SensorValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:52:27.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TelemetryValidator.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Validators\\TelemetryValidator.cs",
+              "RelativeDocumentMoniker": "SmartX\\Validators\\TelemetryValidator.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Validators\\TelemetryValidator.cs",
+              "RelativeToolTip": "SmartX\\Validators\\TelemetryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T11:32:46.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MockTelemetryGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\MockTelemetryGenerator.cs",
+              "RelativeDocumentMoniker": "SmartX\\Services\\MockTelemetryGenerator.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\MockTelemetryGenerator.cs",
+              "RelativeToolTip": "SmartX\\Services\\MockTelemetryGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T11:16:36.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileEncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\FileEncryptionService.cs",
+              "RelativeDocumentMoniker": "SmartX\\Services\\FileEncryptionService.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\FileEncryptionService.cs",
+              "RelativeToolTip": "SmartX\\Services\\FileEncryptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T23:36:19.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AlertEngine.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\AlertEngine.cs",
+              "RelativeDocumentMoniker": "SmartX\\Services\\AlertEngine.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Services\\AlertEngine.cs",
+              "RelativeToolTip": "SmartX\\Services\\AlertEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:53:51.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TelemetryRecord.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\TelemetryRecord.cs",
+              "RelativeDocumentMoniker": "SmartX\\Models\\TelemetryRecord.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\TelemetryRecord.cs",
+              "RelativeToolTip": "SmartX\\Models\\TelemetryRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:49:10.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TelemetryPacket.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\TelemetryPacket.cs",
+              "RelativeDocumentMoniker": "SmartX\\Models\\TelemetryPacket.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\TelemetryPacket.cs",
+              "RelativeToolTip": "SmartX\\Models\\TelemetryPacket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:48:19.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TelemetryInput.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\TelemetryInput.cs",
+              "RelativeDocumentMoniker": "SmartX\\Models\\TelemetryInput.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\TelemetryInput.cs",
+              "RelativeToolTip": "SmartX\\Models\\TelemetryInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:48:51.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SensorRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\SensorRegistration.cs",
+              "RelativeDocumentMoniker": "SmartX\\Models\\SensorRegistration.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\SensorRegistration.cs",
+              "RelativeToolTip": "SmartX\\Models\\SensorRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:47:52.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SensorAttachment.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\SensorAttachment.cs",
+              "RelativeDocumentMoniker": "SmartX\\Models\\SensorAttachment.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\SensorAttachment.cs",
+              "RelativeToolTip": "SmartX\\Models\\SensorAttachment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:50:49.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PowerReading.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\PowerReading.cs",
+              "RelativeDocumentMoniker": "SmartX\\Models\\PowerReading.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\PowerReading.cs",
+              "RelativeToolTip": "SmartX\\Models\\PowerReading.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:50:11.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeploymentNode.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\DeploymentNode.cs",
+              "RelativeDocumentMoniker": "SmartX\\Models\\DeploymentNode.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\DeploymentNode.cs",
+              "RelativeToolTip": "SmartX\\Models\\DeploymentNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:50:32.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DashboardAlert.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\DashboardAlert.cs",
+              "RelativeDocumentMoniker": "SmartX\\Models\\DashboardAlert.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Models\\DashboardAlert.cs",
+              "RelativeToolTip": "SmartX\\Models\\DashboardAlert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:51:08.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TelemetryController.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\TelemetryController.cs",
+              "RelativeDocumentMoniker": "SmartX\\Controllers\\TelemetryController.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\TelemetryController.cs",
+              "RelativeToolTip": "SmartX\\Controllers\\TelemetryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T23:01:14.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SensorsController.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\SensorsController.cs",
+              "RelativeDocumentMoniker": "SmartX\\Controllers\\SensorsController.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\SensorsController.cs",
+              "RelativeToolTip": "SmartX\\Controllers\\SensorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T22:53:36.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SensorAttachmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\SensorAttachmentsController.cs",
+              "RelativeDocumentMoniker": "SmartX\\Controllers\\SensorAttachmentsController.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\SensorAttachmentsController.cs",
+              "RelativeToolTip": "SmartX\\Controllers\\SensorAttachmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T23:03:44.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "SmartX\\Controllers\\HealthController.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "SmartX\\Controllers\\HealthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T23:02:47.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "SmartX\\Controllers\\DemoController.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\DemoController.cs",
+              "RelativeToolTip": "SmartX\\Controllers\\DemoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T23:03:26.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AlertsController.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\AlertsController.cs",
+              "RelativeDocumentMoniker": "SmartX\\Controllers\\AlertsController.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Controllers\\AlertsController.cs",
+              "RelativeToolTip": "SmartX\\Controllers\\AlertsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T23:03:08.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Program.cs",
+              "RelativeDocumentMoniker": "SmartX\\Program.cs",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\Program.cs",
+              "RelativeToolTip": "SmartX\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADYvwUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T10:46:41.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\wwwroot\\styles.css",
+              "RelativeDocumentMoniker": "SmartX\\wwwroot\\styles.css",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\wwwroot\\styles.css",
+              "RelativeToolTip": "SmartX\\wwwroot\\styles.css",
+              "ViewState": "AgIAAOwBAAAAAAAAAEAtwOkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-13T11:02:46.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "smartx-logo.png - PNG [2048x2048, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\wwwroot\\smartx-logo.png",
+              "RelativeDocumentMoniker": "SmartX\\wwwroot\\smartx-logo.png",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\wwwroot\\smartx-logo.png - PNG [2048x2048, 32 bit, PNG]",
+              "RelativeToolTip": "SmartX\\wwwroot\\smartx-logo.png - PNG [2048x2048, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-09-14T13:19:41.738Z",
+              "EditorCaption": " - PNG [2048x2048, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "SmartX\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\wwwroot\\index.html",
+              "RelativeToolTip": "SmartX\\wwwroot\\index.html",
+              "ViewState": "AgIAANEBAAAAAAAAAAAewN4BAADOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-09-13T11:01:18.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\wwwroot\\app.js",
+              "RelativeDocumentMoniker": "SmartX\\wwwroot\\app.js",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\wwwroot\\app.js",
+              "RelativeToolTip": "SmartX\\wwwroot\\app.js",
+              "ViewState": "AgIAACcCAAAAAAAAAIAmwC4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-09-13T11:04:20.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SmartX.csproj",
+              "DocumentMoniker": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\SmartX.csproj",
+              "RelativeDocumentMoniker": "SmartX\\SmartX.csproj",
+              "ToolTip": "C:\\Users\\emeris\\source\\repos\\SmartX\\SmartX\\SmartX.csproj",
+              "RelativeToolTip": "SmartX\\SmartX.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-13T10:51:26.072Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

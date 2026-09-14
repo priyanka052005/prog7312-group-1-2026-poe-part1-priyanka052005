@@ -1,0 +1,7 @@
+wwwroot\app.js
+wwwroot\index.html
+wwwroot\smartx-logo.png
+wwwroot\styles.css
+C:\Users\emeris\source\repos\SmartX\SmartX\wwwroot\app.js
+C:\Users\emeris\source\repos\SmartX\SmartX\wwwroot\index.html
+C:\Users\emeris\source\repos\SmartX\SmartX\wwwroot\styles.css
