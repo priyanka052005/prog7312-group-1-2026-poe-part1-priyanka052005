@@ -2,7 +2,7 @@
 //HTTP requests and responses, dependency injection and communication between the frontend and backend.
 //Microsoft Learn documentation on ASP.NET Core controllers was used as technical guidance.
 //The sensor attachment functionality was additionally informed by Microsoft documentation on multipart
-//file uploads
+//file upload
 
 using Microsoft.AspNetCore.Mvc;
 using SmartX.Services;
