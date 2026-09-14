@@ -121,6 +121,7 @@ Open Command Prompt or PowerShell and run:
 
 ```bash
 git clone https://github.com/priyanka052005/prog7312-group-1-2026-poe-part1-priyanka052005.git
+```
 
 ---
 
